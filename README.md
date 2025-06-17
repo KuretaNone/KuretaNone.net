@@ -1,0 +1,1 @@
+https://kuretanone.net/
