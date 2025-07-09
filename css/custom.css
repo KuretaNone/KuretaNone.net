@@ -1,0 +1,59 @@
+.md-typeset h1 {
+  font-size: 1.4rem; /* 小さめに */
+  padding: 0.6em 1em;
+  border-radius: 10px;
+  font-weight: 700;
+}
+
+.md-typeset h2 {
+  font-size: 1.2rem;
+  padding: 0.4em 1em;
+  border-left: 4px solid;
+  border-bottom: 1px solid gray;
+  border-radius: 4px;
+  margin: 1.5em 0 0.5em;
+  font-weight: 600;
+}
+
+.md-typeset h3 {
+  font-size: 1.05rem;
+  font-weight: 500;
+  border-bottom: 1px dashed #aaa;
+  padding-bottom: 0.2em;
+  margin: 1em 0 0.5em;
+  color: inherit;
+  font-weight: bold;
+}
+
+/* ---------- ライトテーマ ---------- */
+[data-md-color-scheme="default"] .md-typeset h1 {
+  background: #e8f0fe;
+  color: #1a237e;
+}
+
+[data-md-color-scheme="default"] .md-typeset h2 {
+  background: #f0f4ff;
+  border-color: #4a90e2;
+  color: #1a237e;
+}
+
+[data-md-color-scheme="default"] .md-typeset h3 {
+  color: #333;
+}
+
+/* ---------- ダークテーマ ---------- */
+[data-md-color-scheme="slate"] .md-typeset h1 {
+  background: #2a3b5f;
+  color: #e3f2fd;
+}
+
+[data-md-color-scheme="slate"] .md-typeset h2 {
+  background: #1e2a47;
+  border-color: #90caf9;
+  color: #e3f2fd;
+}
+
+[data-md-color-scheme="slate"] .md-typeset h3 {
+  color: #ddd;
+  border-color: #666;
+}
